@@ -3,24 +3,24 @@
 ### v26.4
 
 - [MagiskBoot] Don't pad zeros if signed boot image is larger
-- [MagiskPolicy] Fix `genfscon` and `filename_trans`
-- [MagiskPolicy] Fix bug in `libsepol`
+- [MagiskPolicy] Fix genfscon and filename_trans
+- [MagiskPolicy] Fix bug in libsepol
 - [Zygisk] Fix and simplify file descriptor sanitization logic
 - [App] Prevent OOM when patching AP tarfiles
 - [App] Fix bug in device configuration detection
 - [Daemon] Fix certificate parsing of APKs
-- [General] Fix logging errors from C++ code being ignored
+- [General] Fix logging errors from C+ code being ignored
 
 ### v26.3
 
 - [General] Fix device information detection script
-- [General] Update BusyBox to 1.36.1
+- [General] Update BusyBox to 1.36.2
 - [General] Update toolchain that produces broken arm32 executables
 - [App] Fix root service unable to bind on OnePlus devices
 
 ### v26.2
 
-- [MagiskBoot] Support extracting boot image from `payload.bin`
+- [MagiskBoot] Support extracting boot image from payload.bin
 - [MagiskBoot] Support cpio files containing character files
 - [MagiskBoot] Support listing cpio content
 - [MagiskBoot] Directly handle AVB 1.0 signing and verification without going through Java implementation
